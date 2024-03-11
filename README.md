@@ -7,12 +7,13 @@ Create a simple sliding puzzle game
 suggested file structure
 /game_project
 │
-├── CMakeLists.txt        # The magical plan for building the game
+├── CMakeLists.txt        # Top level magical plan for building the game
 │
 ├── src                   # Source code for your game
 │   ├── main.cpp          # The main entry point for your game
 │   ├── game.cpp          # Game logic implementation
 │   └── game.h            # Game header file with declarations
+│   └── CMakeLists.txt    # 
 │
 ├── assets                # Game assets (images, sounds, etc.)
 │   ├── images
@@ -28,7 +29,7 @@ suggested file structure
 ├── CMakeModules          # Custom CMake modules or scripts (optional)
 │   └── FindSFML.cmake    # A custom CMake module for finding SFML
 │
-├── CMakeLists.txt        # The top-level CMakeLists.txt
+├── 
 ├── README.md             # Project documentation
 └── .gitignore            # Git ignore file to exclude build artifacts and dependencies
 
